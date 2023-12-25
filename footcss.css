@@ -1,0 +1,266 @@
+td,th{
+    padding: 5px;
+
+}
+.classement2,.calendrier2,.resultat2{
+    border: none;
+    background-color: rgb(239, 239, 191);
+    margin-left: 50px;
+}
+.classement tr:first-child td:first-child{
+    border-top: none;
+    border-left: none;
+}
+.calendrier2 th,tr{
+    text-align: center;
+}
+.resultat,.calendrier,.classement{
+    flex: 33%;
+    margin: 20px;
+}
+.titres1{
+    background-color: rgb(180, 237, 218);
+    text-align: center;
+}
+.legends{
+    background-color: rgb(152, 244, 244);
+    width: fit-content;
+}
+.equipes{
+    font-weight: bolder;
+    background-color: rgb(240, 164, 123);
+}
+
+.black1{
+    height: 40px;
+    position: relative;
+    background-color: black;
+}
+.grey{
+    background-color:rgb(242, 240, 240) ;
+    height: 40px;
+}
+.clr td:first-child{
+    background-color: rgb(116, 196, 249);
+    border: 1px solid;
+    border-radius: 5px;
+}
+.clr td:nth-child(3){
+    background-color: rgb(249, 209, 116);
+    border: 1px solid;
+    border-radius: 5px;
+}
+.clr1 td:first-child{
+    background-color: rgb(189, 249, 116);
+    border: 1px solid;
+    border-radius: 5px;
+}
+.clr1 td:nth-child(3){
+    background-color: rgb(249, 116, 116);
+    border: 1px solid;
+    border-radius: 5px;
+}
+.contenuchampionsligue{
+    background-image: url(pictures/pic124.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenuseriea{
+    background-image: url(pictures/pic118.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenuliga{
+    background-image: url(pictures/pic120.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenupremierligue{
+    background-image: url(pictures/pic117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width:1030px){
+    .contenuliga,.contenupremierligue,.contenuseriea,.contenuchampionsligue{
+        height: auto;
+        width: auto;
+        background-color:  rgb(242, 240, 240);
+        display: flex;
+        align-content: space-around;
+    }
+    .classementchampionsl{
+        display: flex;
+        justify-content: center;
+            
+    }
+    .line1{
+        border-left: 5px solid rgb(165, 195, 221);
+    }
+}
+.resultat,.classement,.calendrier{
+    display: flex;
+    flex-direction: column;
+}
+
+.classement3{
+    background-color:rgb(230, 201, 155) ;
+    border: none;
+}
+.equipes1{
+    background-color: rgb(94, 239, 116);
+}
+.space{
+    width: 100px;
+}
+.classement3 tr td{
+    padding: 10px;
+}
+.classement3 tr:nth-child(2) td:first-child{
+    background-color: black;
+    color: white;
+}
+.classement3 tr:nth-child(3) td:first-child{
+    background-color: black;
+    color: white;
+}
+.classement3 tr:nth-child(4) td:first-child{
+    background-color: black;
+    color: white;
+}
+.classement3 tr:nth-child(5) td:first-child{
+    background-color: black;
+    color: white;
+}
+.inscription{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.inscription1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.inscription1 h2 {
+    color: #333;
+}
+
+.inscription1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inscription1 label {
+    margin: 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.inscription1 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inscription1 button {
+    background-color: #1c6fa6;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.inscription1 button:hover {
+    background-color: #155580;
+}
+.connexion {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.connexion1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.connexion1 h2 {
+    color: #333;
+}
+
+.connexion1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connexion1 label {
+    margin: 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.connexion1 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.connexion1 button {
+    background-color: #1c6fa6;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.connexion1 button:hover {
+    background-color: #155580;
+}
+
+.connexion .motdepasseoubli {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+    text-decoration: underline;
+    background-color: #d17c86;
+
+}
+.inscription .deja{
+    background-color: #d17c86;
+    color: #ffffff;
+    text-decoration: underline;
+}

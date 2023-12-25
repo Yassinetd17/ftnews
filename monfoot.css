@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+}
+
+.header{
+    color: black;
+    background-color: rgb(242, 240, 240);
+    height: 200px;
+    background-image: url(pictures/pic122.png);
+    
+}
+.ftns{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footnews{
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 44px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.links1{
+    position: relative;
+    height: 100px;
+    background-color: rgb(255, 250, 228);
+}
+.logos{
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+}
+.accueil{
+    position: relative;
+    left: 10px;
+}
+.accueil:hover,.laliga:hover,.premierl:hover,.seriea:hover,.championsl:hover,.sinscrire:hover,.seconnecter:hover{
+    transform: scale(1.4);
+}
+.laliga{
+    position: relative;
+    left: 24px;
+}
+
+.premierl{
+    position: relative;
+    left: 30px;
+}
+ 
+.seriea{
+    position: relative;
+    left: 57px;
+}
+
+.championsl{
+    position: relative;
+    left: 80px;
+}
+.sinscrireseconnecter{
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+}
+.seconnecter{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.white{
+    color: black;
+    text-decoration: wavy;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(125, 221, 143);
+}
+.black{
+    height: 20px;
+     position: relative; 
+    background-color: black;
+}
+.white:hover{
+    background-color: black;
+    color: white;
+}
+.contenu{
+    background-color: rgb(241, 242, 240) ;
+}
+.contenu1{
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+.contenus{
+    flex: 33%;
+    transform: scale(0.7);
+}
+.contenus:hover{
+    transform: scale(1);
+    background-color: rgb(222, 211, 167);
+}
+.titre{
+    display: flex;
+    justify-content: space-around;
+}
+.titres{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 55, 51) ;
+    background-color: rgb(104, 197, 226);
+    width: 300px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.para{
+    font-size: 1em;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: center;
+}
+.para2{
+    font-size: 1.3em;
+    text-align: center;
+}
+.hr{  
+    height: 10px;
+    background-color: rgb(104, 197, 226);
+    width: 900px;
+}
+.image1{
+    width: 400px;
+    height: 300px;
+}
+.prefooter{
+    height: 50px;
+    background-color: rgb(242, 240, 240);
+}
+.footer{
+    font-size: large;
+    height: 90px;
+    color: rgb(7, 7, 7);
+    background-color:rgba(255, 3, 3, 0.373) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediafootnews{
+    padding: 7px;
+    display: flex;
+}
+.mediafootnews2{
+    width: 40px;
+    height: 30px;
+    padding: 15px;
+    
+}
+.line{
+    border-top: 7px solid rgb(106, 173, 229);
+}
+.mediafootnews .mediaslinks:hover{
+    background-color: white;
+}
+@media (max-width:1220px){
+    .contenu1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:970px){
+        .links1{
+            position: relative;
+            height: 100px;
+            
+        }
+        .logos{
+            margin-bottom: 20px;
+            position: absolute;
+            top: 10px;
+            
+            margin-bottom: 20px;
+        }
+        .links2{
+            position: absolute;
+            top: 80px;
+        }
+        
+        .accueil{
+            position: relative;
+            left: 265px;
+        }
+        .laliga{
+            position: relative;
+            left: 320px;
+        }
+        
+        .premierl{
+            position: relative;
+            left: 370px;
+        }
+         
+        .seriea{
+            position: relative;
+            left: 430px;
+        }
+        
+        .championsl{
+            position: relative;
+            left: 484px;
+        }
+        
+        .white{
+            color: black;
+            text-decoration: wavy;
+            padding: 5px;
+            margin-right: 50px; 
+            position: relative;
+            left: 250px;
+            bottom: 5px;
+        }
+        .header{
+            color: black;
+            background-color: rgb(242, 240, 240);
+            height: 200px;
+        }
+        .ftns{
+            padding: 20px;
+            position: absolute;
+            left: 80px;
+        }
+        .footnews{
+            color: white;
+            font-size: 2em;
+            letter-spacing: 0.8em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 90px;
+            padding-left: 5px;
+            float: right;
+            background-color: black;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .line{
+            border-left: 7px solid rgb(106, 173, 229);
+        }     
+}
+@media (max-width:1250px){
+    .sinscrireseconnecter{
+        display: none;
+    }
+}
+.sinscrireseconnecter1{
+    display: flex;
+    justify-content: center;
+    
+} 
+@media (min-width:1250px){
+    .sinscrireseconnecter1{
+        display: none;
+    } 
+} 
+
+
